@@ -1,0 +1,15 @@
+ANTYPVZ2 CHROME EXTENSION
+
+This folder is a Chrome Extension (Manifest V3) that opens AntyPVZ2 when you open a new tab.
+
+INSTALL (requires a desktop version of Chrome on Windows, Mac, or Linux):
+1. Extract this ZIP to a folder.
+2. Open chrome://extensions in Chrome.
+3. Turn on Developer mode.
+4. Tap/click Load unpacked and select the extracted folder containing manifest.json.
+5. Open a new tab to launch AntyPVZ2.
+
+IMPORTANT LIMITATIONS:
+- Chrome extensions cannot be installed in Chrome on iPhone. Use the PWA ZIP and add the deployed site to the iPhone Home Screen instead.
+- This extension packages the game pages/assets. The clicker currently loads Supabase JS from a CDN; Chrome Manifest V3 blocks remotely hosted JavaScript in extensions. Therefore account sign-in/shared online leaderboard functionality may not work in this extension build until the Supabase JS library is packaged locally or the game is opened from its HTTPS-hosted website.
+- Online auth requires internet access. The extension does not upload or change anything in your accounts.

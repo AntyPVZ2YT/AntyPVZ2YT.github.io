@@ -1,0 +1,15 @@
+ANTY’S SAVE EDITOR — MINIMAL EDITOR PACKAGE
+
+This package contains only the PvZ2 save editor. Mini-games, arcade progression, game audio, and mini-game assets have been removed.
+
+The editor interface is limited to:
+- Import a pp.dat save file
+- Export the edited save as pp.dat
+- Set currencies/resources
+- Set power-ups
+- Select a profile and add a profile
+- A small Anty’s Save Editor title
+
+Open index.html in a compatible browser, or follow CHROME-EXTENSION-INSTALL.txt for the browser-extension packaging notes.
+
+Save editing runs locally in the browser. Keep a backup of your original pp.dat before editing.
